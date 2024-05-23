@@ -1,0 +1,226 @@
+/* SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #667085;
+    font-weight: 300;
+
+}
+/* PROJET CSS */
+
+.nav-bar{
+    width: 100%;
+    height: 72px;
+
+    padding: 0 72px;
+    
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: center;
+}
+
+.nb-left{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: line;
+    justify-content: start;
+    align-items: center;
+}
+
+.nb-left img{
+    width: 60px;
+    height: 60px;
+}
+
+.nb-right{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: line;
+    justify-content: start;
+    align-items: center;
+}
+
+.nbr-menu{
+    width: 65%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nbr-menu p a{
+    color: #667085;
+    text-decoration: none;
+}
+
+#menu-apropos{
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline black;
+
+}
+
+.nbr-btn{
+    width: 35%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-black{
+            
+    width: 60%;
+    height: 55px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px ;
+}
+.btn-white{
+    
+    width: 60%;
+    height: 55px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    border-radius: 8px ;
+}   
+/* SECTION 1 */
+
+ .s1 {
+    width: 100%;
+    height: 1000px;
+    background-color: #f9fafb;
+ }
+ .s1-titre {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+ }
+
+.s1-titre p {
+  font-size: 60px ;
+  color: #101828;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+
+ .s1-description {
+    width: 100%;
+    height: 5%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+ }
+
+ .s1-description {
+    font-size: 20px ;
+    color: #667085 ;
+    font-weight: 400;
+    text-align: center;  
+ }
+
+ .s1-btn {
+    width: 100%;
+    height: 25%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn-grd{
+    width: 130px;
+    height: 60px;
+    margin: 0 10px;
+
+ }
+
+ .s1-img {
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* FOOTER */
+ .s-footer, .sf-left , .sf-right {
+    
+ }
+
+ .s-footer{
+    width: 100%;
+    height: 120px;
+    background-color: #f9fafb;
+    padding: 0 50px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+ }
+
+ .sf-left {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+
+ .sf-right {
+    width: 50%;
+    height: 100%;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+ }
+ 
+ .fa-brands{
+    margin: 0 10px;
+ } 
+ 
+ /* SECTION 2 */
+ .AS , .AS-left, .AS-right {
+   border: 1px solid red;
+
+ } 
+
+ .AS{
+    width: 216%;
+    height: 248px;
+    padding: 64px;
+
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+ }
+
+
